@@ -1,11 +1,7 @@
 # Nick-Neural-Network
 A Neural Network package I created from scratch. 
 
-This package fits a Neural Network to data given through Fit_NN()
-
-  This takes 2 numpy array, one for the X variables and one for the target vairables.
-
-  Besides these, other variables can be passed,these are:
+The Neural Network can be initiliased with the following parameters:
     Hidden_node_size
     Output_node_size
     Hidden_layers
@@ -14,7 +10,12 @@ This package fits a Neural Network to data given through Fit_NN()
     alpha_const   (this is the alpha for calculating the new weights/thetas of the constant variable in backwards propogations)
     momentum   (a momentum variable to reduce the cyclicality of alphas)
 
-  All these variable have defaults if not passed (see code for default settings)
+  All these parameters have defaults if not passed (see code for default settings)
+
+This package fits a Neural Network to data given through Fit_NN()
+
+  This takes 2 numpy array, one for the X variables and one for the target vairables.
+
   
 Other functionalities are:
 
